@@ -112,7 +112,7 @@ def makeSVG(data):
         "songName": songName,
         "image": image,
         "status": currentStatus,
-        "backgroundImage": url_for('static', 'Asset 1-8.png')
+        # "backgroundImage": url_for('static', 'Asset 1-8.png')
     }
 
     return render_template("spotify.html.j2", **dataDict)
