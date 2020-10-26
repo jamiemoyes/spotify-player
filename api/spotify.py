@@ -24,7 +24,6 @@ RECENTLY_PLAYING_URL = (
 
 app = Flask(__name__)
 
-
 def getAuth():
     return b64encode(f"{SPOTIFY_CLIENT_ID}:{SPOTIFY_SECRET_ID}".encode()).decode(
         "ascii"
@@ -113,6 +112,7 @@ def makeSVG(data):
         "songName": songName,
         "image": image,
         "status": currentStatus,
+        "backgroundImage": url_for('static', 'Asset 1-8.png')
     }
 
     return render_template("spotify.html.j2", **dataDict)
