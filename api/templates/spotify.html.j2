@@ -1,5 +1,7 @@
 <head>
-<link rel="stylesheet" href="https://use.typekit.net/llu5pbr.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<link rel="stylesheet" href="{{https://use.typekit.net/llu5pbr.css}}">
 </head>
 
 <svg width="480" height="133" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,7 +13,7 @@
                 .main {
                     /*margin-top: 40px;*/
                     display: flex;
-                    background: url('/api/static/Asset 1-8.png');
+                    background: url('/static/Asset 1-8.png');
                     background-fit: contain;
                 }
 
