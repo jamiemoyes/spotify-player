@@ -2,7 +2,7 @@
   <tr>
   <td width="50%">
       
-&nbsp; <br> [![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/user/omnitenebris)
+&nbsp; <br> [![Spotify][<img src="https://novatorem-git-master.jamiemoyes.vercel.app/api/spotify" alt="Jamie Moyes Spotify Playing" width="350" />](https://open.spotify.com/user/21iatcavo2t4tbum42ttpanta))
 
   </td>
   <td width="50%">
